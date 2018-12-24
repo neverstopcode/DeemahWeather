@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:padding="20dp">
+
+    <org.eazegraph.lib.charts.ValueLineChart xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cubiclinechart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:egCurveSmoothness="0.4"
+        app:egIndicatorLineColor="#f50003"
+        app:egIndicatorTextColor="#FFF"
+        app:egLegendHeight="40dp"
+        app:egShowLegendBeneathIndicator="true"
+        app:egShowStandardValue="true"
+        app:egUseCubic="true"
+        tools:background="@android:color/darker_gray" />
+
+    <org.eazegraph.lib.charts.ValueLineChart xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cubiclinechart2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        app:egCurveSmoothness="0.4"
+        app:egIndicatorLineColor="#dc0508"
+        app:egIndicatorTextColor="#FFF"
+        app:egLegendHeight="40dp"
+        app:egShowLegendBeneathIndicator="true"
+        app:egShowStandardValue="true"
+        app:egShowValueIndicator="true"
+        app:egUseCubic="true"
+        tools:background="@android:color/darker_gray" />
+
+</RelativeLayout>

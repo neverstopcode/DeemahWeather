@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DeemahWeather</string>
+    <string name="title_activity_day">DayActivity</string>
+</resources>
